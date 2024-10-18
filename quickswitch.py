@@ -38,7 +38,7 @@ except ImportError:
 # Must use semver 2.0.0
 __version__ = "2.7.0"
 
-workspace_number_re = re.compile("^(?P<number>\d+)(?P<name>.*)")
+workspace_number_re = re.compile(r"^(?P<number>\d+)(?P<name>.*)")
 default_dmenu_command = "dmenu -b -i -l 20"
 window_class_ignore_list = []
 follow = False
